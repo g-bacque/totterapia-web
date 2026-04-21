@@ -1,0 +1,13 @@
+.home {
+  width: 100%;
+}
+
+.home-main {
+
+  padding: 96px 0px;
+}
+
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+}

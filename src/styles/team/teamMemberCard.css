@@ -1,0 +1,60 @@
+.team-member-card {
+  text-align: center;
+  max-width: 260px;
+  transition: transform 0.25s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-4px);
+}
+
+.team-member-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.team-member-image,
+.team-member-placeholder {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #dfe7dc;
+  display: block;
+}
+
+/* Añade esto */
+.team-member-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.team-member-image {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.team-member-name {
+  font-size: 1.15rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.team-member-role {
+  font-size: 0.98rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+.team-member-description {
+  max-width: 30ch;
+  margin: 0 auto;
+  font-size: 0.96rem;
+  line-height: 1.7;
+  color: var(--color-text-light);
+  text-align: center;
+}
+

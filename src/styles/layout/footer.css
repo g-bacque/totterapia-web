@@ -1,0 +1,75 @@
+.footer {
+  margin-top: 64px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.footer-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-title {
+  font-size: 1.15rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 12px;
+}
+
+.footer-subtitle {
+  font-size: 0.95rem;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+}
+
+.footer-text {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 8px;
+}
+
+.footer-button {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: var(--font-weight-semibold);
+  transition: all var(--transition);
+}
+
+.footer-button {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+/* Botón principal */
+.footer-button-primary {
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+}
+
+.footer-button-primary:hover {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+/* Botón secundario */
+.footer-button-secondary {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.footer-button-secondary:hover {
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+}

@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base general */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Estructura general */
+#root {
+  min-height: 100vh;
+}
+
+/* Variables globales */
+:root {
+  /* Paleta principal */
+  --color-green: #9dc94f;
+  --color-blue: #5fa8ba;
+  --color-green-soft: #84b985;
+  --color-teal: #71afa2;
+
+  /* Base */
+  --color-white: #ffffff;
+  --color-black: #1f2937;
+  --color-background-alt: #fafef0;
+
+  /* Uso semántico */
+  --color-primary: var(--color-green);
+  --color-secondary: var(--color-blue);
+  --color-accent: var(--color-teal);
+
+  /* Neutrales */
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-border: #e5e7eb;
+  --color-background: #ffffff;
+
+  /* Footer */
+  --color-footer-bg: #1f2937;
+  --color-footer-text: #f9fafb;
+
+  /* Layout */
+  --max-width: 1200px;
+
+  /* UI */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --transition: 0.2s ease-in-out;
+
+
+  /* Tipografía */
+--font-family-base: 'Inter', Arial, sans-serif;
+  --font-size-nav: 0.95rem;
+  --font-size-body: 1rem;
+  --font-size-body-large: 1.1rem;
+  --font-size-subtitle: 0.9rem;
+  --font-size-h1: 3.4rem;
+  --font-size-h2: 2.4rem;
+  --font-size-h3: 1.9rem;
+
+  --line-height-body: 1.7;
+  --line-height-heading: 1.15;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  
+}
+
+/*-------------------*/
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.6rem;
+    --font-size-body-large: 1.05rem;
+  }
+}
